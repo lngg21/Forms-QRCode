@@ -128,14 +128,12 @@ const FormQRCode = () => {
             <p><strong>Custo:</strong> R$ {formData.custo}</p> {/* Mostra o custo calculado */}
             <button type="submit">Gerar QR Code</button>
           </form>
-        </div>
-
         {qrCodeData && (
           <div className='QRCode'>
             <h3>QR Code:</h3>
             <QRCodeSVG value={qrCodeData} />
-          </div>
-        )}
+          </div>  )}
+        </div>
       </div>
     </>
   );
