@@ -1,0 +1,49 @@
+.forms{
+    background-color: #f8f9fa;
+    padding: 50px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    transition: transform 0.2;
+    width: 500px;
+    text-align: center;
+}
+
+label{
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+button{
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+.QRCode{
+    margin-top: 50px;
+    text-align: center;
+}
